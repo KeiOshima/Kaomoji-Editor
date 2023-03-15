@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_gPq_ROW4AJi8SJQt.woff2) format('woff2');
+}
+
+body{
+    background: #EEE;
+    padding: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.StatsCount{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center; 
+}
+
+.editor{
+    margin: auto;
+}
+
+nav{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    display:inline-block;
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid #313154;
+    border-radius: 4px;
+
+}
+
+input{
+    width: 30%;
+}
+.addForm, .AddButton{
+    display: inline-block;
+    
+}
+
+.addForm{
+    margin-left: 60px;
+}
+
+input, .FindButton{
+    display: inline-block;
+    justify-content: center;
+}
+
+
+.SubmitButton{
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+    margin-top: 10px;
+    margin-left: 440px;
+}
+
+.FindButton{
+   margin:0px
+}
+
+
+table{
+    
+    width: 90%;
+    border-spacing: 0;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+td{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid #313154;
+
+}
+
+.output{
+    background-color:bisque;
+}

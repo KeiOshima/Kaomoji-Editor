@@ -1,0 +1,24 @@
+{
+  "name": "kaomoji-editor",
+  "version": "1.0.0",
+  "description": "replaces certain words in an inputted text with its equivalent Kaomoji expression.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeiOshima/Kaomoji-Editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeiOshima/Kaomoji-Editor/issues"
+  },
+  "homepage": "https://github.com/KeiOshima/Kaomoji-Editor#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0"
+  }
+}
